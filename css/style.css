@@ -1,0 +1,20 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Sora", sans-serif;
+}
+/* end fonts */
+
+/* start header */
+.header .main-logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+.header .nav-item {
+  padding: 0 13px;
+}
+.header .ads {
+    width: 95%;
+    margin: auto;
+}
+/* end header */
