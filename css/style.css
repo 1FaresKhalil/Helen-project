@@ -120,6 +120,11 @@ a {
   font-size: 40px;
   font-weight: 800;
 }
+@media(max-width: 768px){
+  .about-heading h2 {
+    font-size: 30px;
+  }
+}
 .contact-first-paragraph p {
   font-size: 16px;
   line-height: 155%;
