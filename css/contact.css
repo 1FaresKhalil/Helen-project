@@ -3,11 +3,11 @@
 body {
   font-family: "Sora", sans-serif;
 }
+/* end fonts */
 a {
   text-decoration: none;
   color: #12233b;
 }
-/* end fonts */
 
 /* start header */
 .header .main-logo {
@@ -31,42 +31,48 @@ a {
   }
 }
 /* end header */
-/* about */
+
+/* start contact */
+.contact-details h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.contact-details p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a0a7b1;
+}
+.contact-details a {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0056fd;
+}
+@media (max-width: 768px) {
+  .contact-details {
+    margin-top: 1rem;
+  }
+  .contact-details a {
+    font-size: 18px;
+  }
+}
 .about-heading h2 {
   font-size: 40px;
   font-weight: 800;
 }
-.about-first-paragraph p {
+.contact-first-paragraph p {
   font-size: 16px;
   line-height: 155%;
 }
-.about-second-paragraph p {
+.contact-second-paragraph p {
   font-size: 16px;
   line-height: 155%;
 }
-.about-second-paragraph ul {
-  list-style-position: outside;
-}
-.about-second-paragraph li {
-  line-height: 145%;
-  padding: 14px 0;
-}
-.about-second-paragraph li::marker {
-  font-size: 1.5rem;
-  color: #0056fd;
-}
-/* .about-second-paragraph li::before {
-  content: "";
-  background: blue;
-  border-radius: 50%;
-  padding-inline: 1px;
-  margin-inline-end: 1px;
-} */
-.about-heading-two {
+
+.contact-heading-two h2 {
   font-size: 32px;
   font-weight: 800;
 }
-.about-rounded-circle {
+.contact-rounded-circle {
   color: #fff;
   height: 50px;
   display: flex;
@@ -76,16 +82,9 @@ a {
   width: 50px;
   border-radius: 50%;
 }
-.about-second-part p {
+.contact-second-part p {
   line-height: 145%;
   color: #12233b;
-}
-.ads-two {
-  height: 20vh;
-  background-image: url(../assets/Ads-two.png);
-  width: 95%;
-  background-repeat: no-repeat;
-  border-radius: 0px 10px 10px 10px;
 }
 .hr {
   width: 100%;
@@ -112,12 +111,12 @@ a {
   font-weight: 400;
 }
 @media (min-width: 768px) {
-  .about .img-two {
+  .contact .img-two {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .about .img-one {
+  .contact .img-one {
     display: none;
   }
 }
